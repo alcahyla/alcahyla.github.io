@@ -20,14 +20,16 @@
 
 title: Alicia Hyland's E-Portfolio
 email: aliciahy@buffalo.edu
-description: >- My name is Alicia Hyland, and I am graduating with an Electrical Engineering M.S. in December 2023. This is my E-Portfolio, 
-which contains information about my background and  my career goals, as well as reflections on the coursework I completed for my degree.
+description: >- # this means to ignore newlines until "baseurl:"
+    My name is Alicia Hyland, and I am graduating with an Electrical 
+    Engineering M.S. in December 2023. This is my E-Portfolio, 
+    which contains information about my background and  my career goals, as well as reflections on the coursework I completed for my degree.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alcahyla
 
 # Build settings
-theme: architect
+theme: minima
 plugins:
   - jekyll-feed
 
